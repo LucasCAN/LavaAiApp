@@ -20,11 +20,11 @@ public class TelaPrincipal extends AppCompatActivity {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_pedidos:
+                    mTextMessage.setText(R.string.title_pedidos);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                case R.id.navigation_historico:
+                    mTextMessage.setText(R.string.title_historico);
                     return true;
             }
             return false;
@@ -39,6 +39,7 @@ public class TelaPrincipal extends AppCompatActivity {
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
     }
 
 }

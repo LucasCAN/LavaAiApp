@@ -68,4 +68,18 @@
         android:textColor="@color/colorAccent"
         android:textSize="12sp" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="242dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="53dp"
+        android:fontFamily="@font/bungee"
+        android:text="LavAí"
+        android:textSize="55sp" />
+
 </RelativeLayout>
